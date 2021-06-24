@@ -1,0 +1,7 @@
+#img-bg{
+    background-image: url("https://cdn.blog.vindi.com.br/wp-content/uploads/2020/03/home-office-scaled.jpg");
+    min-height: 695px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
