@@ -50,11 +50,10 @@
                         <th>{{item.id}}</th>
                         <td>{{item.descricao}}</td>
                         <td class="d-flex justify-content-end">
-                          <button class='btn btn-primary me-3'type="submit">Editar</button>
-                          <button class='btn btn-danger'type="submit">Apagar</button>
+                          <button class='btn btn-primary me-3'type="submit" [routerLink]="['/tema-edit',item.id]" >Editar</button>
+                          <button class='btn btn-danger'type="submit" [routerLink]="['/tema-delete',item.id]">Apagar</button>
                         </td>
                       </tr>
-                      
                     </tbody>
                   </table>
 
